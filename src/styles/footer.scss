@@ -5,6 +5,7 @@
     height: 100px;
     max-height: 100px;
     width: 100%;
+    margin: 0 auto;
     background-color: rgb(19, 97, 101);
     color: aliceblue;
     display: flex;
@@ -29,5 +30,16 @@
             text-shadow: variaveis.$sombras;
             align-items: center;
             }
+    }
+}
+
+@media only screen and (max-width: 932px){
+    .footer{
+        &--container{
+            p{
+                padding-top: 30px;
+                font-size: 15px;
+            }
+        }
     }
 }

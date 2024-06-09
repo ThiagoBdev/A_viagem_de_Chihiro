@@ -38,3 +38,34 @@ body{
     }
 }
 
+@media only screen and (min-width: 933px) and (max-width: 1024px) { //tablets em diante
+    body{
+        header{
+            ul{
+                li{
+                    a{
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 932px) { //celulares
+    body{
+        header{
+            padding: 20px;
+            ul{
+                margin-right: 0;
+                li{
+                    padding: 10px;
+                    margin: 0 auto;
+                    a{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

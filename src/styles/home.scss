@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     max-width: 1480px;
+    margin: 0 auto;
     height: 630px;
     
     h1{
@@ -23,5 +24,16 @@
         width: 100%;
         max-width: 750px;
         max-height: 500px;
+    }
+}
+
+
+@media only screen and (max-width: 932px){
+    .Home{
+        height: 300px;
+        h1{
+            font-size: 25px;
+            margin-top: 30px;
+        }
     }
 }
